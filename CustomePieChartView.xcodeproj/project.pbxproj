@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5A64DF1D9B524900B6B32C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A64DE1D9B524900B6B32C /* main.m */; };
+		EF5A64E21D9B524900B6B32C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A64E11D9B524900B6B32C /* AppDelegate.m */; };
+		EF5A64E51D9B524900B6B32C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A64E41D9B524900B6B32C /* ViewController.m */; };
+		EF5A64E81D9B524900B6B32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A64E61D9B524900B6B32C /* Main.storyboard */; };
+		EF5A64EA1D9B524900B6B32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A64E91D9B524900B6B32C /* Assets.xcassets */; };
+		EF5A64ED1D9B524900B6B32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A64EB1D9B524900B6B32C /* LaunchScreen.storyboard */; };
+		EF5A64F81D9B524900B6B32C /* CustomePieChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A64F71D9B524900B6B32C /* CustomePieChartViewTests.m */; };
+		EF5A65031D9B524900B6B32C /* CustomePieChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A65021D9B524900B6B32C /* CustomePieChartViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5A64F41D9B524900B6B32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5A64D21D9B524900B6B32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5A64D91D9B524900B6B32C;
+			remoteInfo = CustomePieChartView;
+		};
+		EF5A64FF1D9B524900B6B32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5A64D21D9B524900B6B32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5A64D91D9B524900B6B32C;
+			remoteInfo = CustomePieChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5A64DA1D9B524900B6B32C /* CustomePieChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomePieChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A64DE1D9B524900B6B32C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5A64E01D9B524900B6B32C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5A64E11D9B524900B6B32C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5A64E31D9B524900B6B32C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5A64E41D9B524900B6B32C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5A64E71D9B524900B6B32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5A64E91D9B524900B6B32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5A64EC1D9B524900B6B32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5A64EE1D9B524900B6B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5A64F31D9B524900B6B32C /* CustomePieChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomePieChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A64F71D9B524900B6B32C /* CustomePieChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomePieChartViewTests.m; sourceTree = "<group>"; };
+		EF5A64F91D9B524900B6B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5A64FE1D9B524900B6B32C /* CustomePieChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomePieChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A65021D9B524900B6B32C /* CustomePieChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomePieChartViewUITests.m; sourceTree = "<group>"; };
+		EF5A65041D9B524900B6B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5A64D71D9B524900B6B32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A64F01D9B524900B6B32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A64FB1D9B524900B6B32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5A64D11D9B524900B6B32C = {
+			isa = PBXGroup;
+			children = (
+				EF5A64DC1D9B524900B6B32C /* CustomePieChartView */,
+				EF5A64F61D9B524900B6B32C /* CustomePieChartViewTests */,
+				EF5A65011D9B524900B6B32C /* CustomePieChartViewUITests */,
+				EF5A64DB1D9B524900B6B32C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5A64DB1D9B524900B6B32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A64DA1D9B524900B6B32C /* CustomePieChartView.app */,
+				EF5A64F31D9B524900B6B32C /* CustomePieChartViewTests.xctest */,
+				EF5A64FE1D9B524900B6B32C /* CustomePieChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5A64DC1D9B524900B6B32C /* CustomePieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A64E01D9B524900B6B32C /* AppDelegate.h */,
+				EF5A64E11D9B524900B6B32C /* AppDelegate.m */,
+				EF5A64E31D9B524900B6B32C /* ViewController.h */,
+				EF5A64E41D9B524900B6B32C /* ViewController.m */,
+				EF5A64E61D9B524900B6B32C /* Main.storyboard */,
+				EF5A64E91D9B524900B6B32C /* Assets.xcassets */,
+				EF5A64EB1D9B524900B6B32C /* LaunchScreen.storyboard */,
+				EF5A64EE1D9B524900B6B32C /* Info.plist */,
+				EF5A64DD1D9B524900B6B32C /* Supporting Files */,
+			);
+			path = CustomePieChartView;
+			sourceTree = "<group>";
+		};
+		EF5A64DD1D9B524900B6B32C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A64DE1D9B524900B6B32C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5A64F61D9B524900B6B32C /* CustomePieChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A64F71D9B524900B6B32C /* CustomePieChartViewTests.m */,
+				EF5A64F91D9B524900B6B32C /* Info.plist */,
+			);
+			path = CustomePieChartViewTests;
+			sourceTree = "<group>";
+		};
+		EF5A65011D9B524900B6B32C /* CustomePieChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A65021D9B524900B6B32C /* CustomePieChartViewUITests.m */,
+				EF5A65041D9B524900B6B32C /* Info.plist */,
+			);
+			path = CustomePieChartViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5A64D91D9B524900B6B32C /* CustomePieChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A65071D9B524900B6B32C /* Build configuration list for PBXNativeTarget "CustomePieChartView" */;
+			buildPhases = (
+				EF5A64D61D9B524900B6B32C /* Sources */,
+				EF5A64D71D9B524900B6B32C /* Frameworks */,
+				EF5A64D81D9B524900B6B32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomePieChartView;
+			productName = CustomePieChartView;
+			productReference = EF5A64DA1D9B524900B6B32C /* CustomePieChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5A64F21D9B524900B6B32C /* CustomePieChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A650A1D9B524900B6B32C /* Build configuration list for PBXNativeTarget "CustomePieChartViewTests" */;
+			buildPhases = (
+				EF5A64EF1D9B524900B6B32C /* Sources */,
+				EF5A64F01D9B524900B6B32C /* Frameworks */,
+				EF5A64F11D9B524900B6B32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5A64F51D9B524900B6B32C /* PBXTargetDependency */,
+			);
+			name = CustomePieChartViewTests;
+			productName = CustomePieChartViewTests;
+			productReference = EF5A64F31D9B524900B6B32C /* CustomePieChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5A64FD1D9B524900B6B32C /* CustomePieChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A650D1D9B524900B6B32C /* Build configuration list for PBXNativeTarget "CustomePieChartViewUITests" */;
+			buildPhases = (
+				EF5A64FA1D9B524900B6B32C /* Sources */,
+				EF5A64FB1D9B524900B6B32C /* Frameworks */,
+				EF5A64FC1D9B524900B6B32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5A65001D9B524900B6B32C /* PBXTargetDependency */,
+			);
+			name = CustomePieChartViewUITests;
+			productName = CustomePieChartViewUITests;
+			productReference = EF5A64FE1D9B524900B6B32C /* CustomePieChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5A64D21D9B524900B6B32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					EF5A64D91D9B524900B6B32C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y27YDDWD9N;
+						ProvisioningStyle = Automatic;
+					};
+					EF5A64F21D9B524900B6B32C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y27YDDWD9N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5A64D91D9B524900B6B32C;
+					};
+					EF5A64FD1D9B524900B6B32C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y27YDDWD9N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF5A64D91D9B524900B6B32C;
+					};
+				};
+			};
+			buildConfigurationList = EF5A64D51D9B524900B6B32C /* Build configuration list for PBXProject "CustomePieChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5A64D11D9B524900B6B32C;
+			productRefGroup = EF5A64DB1D9B524900B6B32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5A64D91D9B524900B6B32C /* CustomePieChartView */,
+				EF5A64F21D9B524900B6B32C /* CustomePieChartViewTests */,
+				EF5A64FD1D9B524900B6B32C /* CustomePieChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5A64D81D9B524900B6B32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A64ED1D9B524900B6B32C /* LaunchScreen.storyboard in Resources */,
+				EF5A64EA1D9B524900B6B32C /* Assets.xcassets in Resources */,
+				EF5A64E81D9B524900B6B32C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A64F11D9B524900B6B32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A64FC1D9B524900B6B32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5A64D61D9B524900B6B32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A64E51D9B524900B6B32C /* ViewController.m in Sources */,
+				EF5A64E21D9B524900B6B32C /* AppDelegate.m in Sources */,
+				EF5A64DF1D9B524900B6B32C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A64EF1D9B524900B6B32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A64F81D9B524900B6B32C /* CustomePieChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A64FA1D9B524900B6B32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A65031D9B524900B6B32C /* CustomePieChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5A64F51D9B524900B6B32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5A64D91D9B524900B6B32C /* CustomePieChartView */;
+			targetProxy = EF5A64F41D9B524900B6B32C /* PBXContainerItemProxy */;
+		};
+		EF5A65001D9B524900B6B32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5A64D91D9B524900B6B32C /* CustomePieChartView */;
+			targetProxy = EF5A64FF1D9B524900B6B32C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5A64E61D9B524900B6B32C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5A64E71D9B524900B6B32C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5A64EB1D9B524900B6B32C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5A64EC1D9B524900B6B32C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5A65051D9B524900B6B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5A65061D9B524900B6B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5A65081D9B524900B6B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = CustomePieChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5A65091D9B524900B6B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = CustomePieChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5A650B1D9B524900B6B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = CustomePieChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomePieChartView.app/CustomePieChartView";
+			};
+			name = Debug;
+		};
+		EF5A650C1D9B524900B6B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = CustomePieChartViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomePieChartView.app/CustomePieChartView";
+			};
+			name = Release;
+		};
+		EF5A650E1D9B524900B6B32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = CustomePieChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomePieChartView;
+			};
+			name = Debug;
+		};
+		EF5A650F1D9B524900B6B32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y27YDDWD9N;
+				INFOPLIST_FILE = CustomePieChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomePieChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5A64D51D9B524900B6B32C /* Build configuration list for PBXProject "CustomePieChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A65051D9B524900B6B32C /* Debug */,
+				EF5A65061D9B524900B6B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5A65071D9B524900B6B32C /* Build configuration list for PBXNativeTarget "CustomePieChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A65081D9B524900B6B32C /* Debug */,
+				EF5A65091D9B524900B6B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5A650A1D9B524900B6B32C /* Build configuration list for PBXNativeTarget "CustomePieChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A650B1D9B524900B6B32C /* Debug */,
+				EF5A650C1D9B524900B6B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5A650D1D9B524900B6B32C /* Build configuration list for PBXNativeTarget "CustomePieChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A650E1D9B524900B6B32C /* Debug */,
+				EF5A650F1D9B524900B6B32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5A64D21D9B524900B6B32C /* Project object */;
+}
