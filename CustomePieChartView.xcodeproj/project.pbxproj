@@ -15,6 +15,8 @@
 		EF5A64ED1D9B524900B6B32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A64EB1D9B524900B6B32C /* LaunchScreen.storyboard */; };
 		EF5A64F81D9B524900B6B32C /* CustomePieChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A64F71D9B524900B6B32C /* CustomePieChartViewTests.m */; };
 		EF5A65031D9B524900B6B32C /* CustomePieChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A65021D9B524900B6B32C /* CustomePieChartViewUITests.m */; };
+		EF5A65121D9B529800B6B32C /* PieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A65111D9B529800B6B32C /* PieChartView.m */; };
+		EF5A65151D9B6B8F00B6B32C /* CenterPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5A65141D9B6B8F00B6B32C /* CenterPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		EF5A64FE1D9B524900B6B32C /* CustomePieChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomePieChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5A65021D9B524900B6B32C /* CustomePieChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomePieChartViewUITests.m; sourceTree = "<group>"; };
 		EF5A65041D9B524900B6B32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5A65101D9B529800B6B32C /* PieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartView.h; sourceTree = "<group>"; };
+		EF5A65111D9B529800B6B32C /* PieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartView.m; sourceTree = "<group>"; };
+		EF5A65131D9B6B8F00B6B32C /* CenterPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterPoint.h; sourceTree = "<group>"; };
+		EF5A65141D9B6B8F00B6B32C /* CenterPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				EF5A64E11D9B524900B6B32C /* AppDelegate.m */,
 				EF5A64E31D9B524900B6B32C /* ViewController.h */,
 				EF5A64E41D9B524900B6B32C /* ViewController.m */,
+				EF5A65131D9B6B8F00B6B32C /* CenterPoint.h */,
+				EF5A65141D9B6B8F00B6B32C /* CenterPoint.m */,
+				EF5A65101D9B529800B6B32C /* PieChartView.h */,
+				EF5A65111D9B529800B6B32C /* PieChartView.m */,
 				EF5A64E61D9B524900B6B32C /* Main.storyboard */,
 				EF5A64E91D9B524900B6B32C /* Assets.xcassets */,
 				EF5A64EB1D9B524900B6B32C /* LaunchScreen.storyboard */,
@@ -276,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF5A65121D9B529800B6B32C /* PieChartView.m in Sources */,
 				EF5A64E51D9B524900B6B32C /* ViewController.m in Sources */,
+				EF5A65151D9B6B8F00B6B32C /* CenterPoint.m in Sources */,
 				EF5A64E21D9B524900B6B32C /* AppDelegate.m in Sources */,
 				EF5A64DF1D9B524900B6B32C /* main.m in Sources */,
 			);
@@ -429,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y27YDDWD9N;
 				INFOPLIST_FILE = CustomePieChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y27YDDWD9N;
 				INFOPLIST_FILE = CustomePieChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = netWork.com.CustomePieChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
