@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "PieChartView.h"
 #import "CenterPoint.h"
+#define SCREEM_WIDTH [UIScreen mainScreen].bounds.size.width
+
 
 NSInteger const SmallArcRadius = 3;//控制间隔大小
 CGPoint const SmallArcCenter = {160,200};
@@ -26,99 +28,18 @@ CGPoint const SmallArcCenter = {160,200};
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    NSArray * percentArray = @[@0.34,@0.26,@0.21,@0.19];//百分比
-    NSArray *colorArray = @[[UIColor greenColor],[UIColor redColor],[UIColor blueColor],[UIColor yellowColor],[UIColor blueColor]];//颜色，数量要大于等于百分比个数
-    NSMutableArray *centerPointArray = [self convertArcCenterPoint:percentArray];
-    for (int i = 0; i < centerPointArray.count; i ++) {
-        
-        float startAngle = 0.0;
-        float endAngle = 0.0;
-        for (int j = 0; j <= i; j ++) {
-            if (i == centerPointArray.count - 1) {
-                if (j == i) {
-                    CenterPoint *centerPoint = centerPointArray[i];
-                    PieChartView *chartView = [[PieChartView alloc]initWithFrame:self.view.frame];
-                    NSNumber *percent = percentArray[j];
-                    endAngle = endAngle + percent.floatValue*M_PI*2;
-                    chartView.centerPoint = CGPointMake(centerPoint.x, centerPoint.y);
-                    chartView.strokeColor = colorArray[i];
-                    chartView.startAngle = -M_PI/2 + startAngle;
-                    chartView.endAngle = -M_PI/2;
-                    chartView.backgroundColor = [UIColor clearColor];
-                    [self.view addSubview:chartView];
-                } else {
-                    NSNumber *percent = percentArray[j];
-                    startAngle = startAngle + percent.floatValue*M_PI*2;
-                    endAngle = endAngle + percent.floatValue*M_PI*2;
-                }
-                continue;
-            }
-            if (j == i) {
-                CenterPoint *centerPoint = centerPointArray[i];
-                PieChartView *chartView = [[PieChartView alloc]initWithFrame:self.view.frame];
-                NSNumber *percent = percentArray[j];
-                endAngle = endAngle + percent.floatValue*M_PI*2;
-                chartView.centerPoint = CGPointMake(centerPoint.x, centerPoint.y);
-                chartView.strokeColor = colorArray[i];
-                chartView.startAngle = -M_PI/2 + startAngle;
-                chartView.endAngle = -M_PI/2 + endAngle;
-                chartView.backgroundColor = [UIColor clearColor];
-                [self.view addSubview:chartView];
-            } else {
-                NSNumber *percent = percentArray[j];
-                startAngle = startAngle + percent.floatValue*M_PI*2;
-                endAngle = endAngle + percent.floatValue*M_PI*2;
-            }
-        }
-        
-//        if (i == 0) {
-//            CenterPoint *centerPoint = centerPointArray[i];
-//            PieChartView *chartView = [[PieChartView alloc]initWithFrame:self.view.frame];
-//            NSNumber *percent = percentArray[i];
-//            chartView.centerPoint = CGPointMake(centerPoint.x, centerPoint.y);
-//            chartView.strokeColor = [UIColor redColor];
-//            chartView.startAngle = -M_PI/2;
-//            chartView.endAngle = -M_PI/2 + percent.doubleValue*M_PI*2;
-//            chartView.backgroundColor = [UIColor clearColor];
-//            [self.view addSubview:chartView];
-//        } if (i == 1) {
-//            NSNumber *percent = percentArray[0];
-//            NSNumber *percent2 = percentArray[1];
-//            CenterPoint *centerPoint = centerPointArray[i];
-//            PieChartView *chartView = [[PieChartView alloc]initWithFrame:self.view.frame];
-//            chartView.startAngle = -M_PI/2 + percent.doubleValue*M_PI*2;
-//            chartView.endAngle = -M_PI/2 + percent.doubleValue*M_PI*2+percent2.doubleValue*M_PI*2;
-//            chartView.strokeColor = [UIColor greenColor];
-//            chartView.centerPoint = CGPointMake(centerPoint.x, centerPoint.y);
-//            chartView.backgroundColor = [UIColor clearColor];
-//            [self.view addSubview:chartView];
-//        } if (i == 2) {
-//            NSNumber *percent = percentArray[0];
-//            NSNumber *percent2 = percentArray[1];
-//            NSNumber *percent3 = percentArray[2];
-//            CenterPoint *centerPoint = centerPointArray[i];
-//            PieChartView *chartView = [[PieChartView alloc]initWithFrame:self.view.frame];
-//            chartView.startAngle = -M_PI/2 + percent.doubleValue*M_PI*2+percent2.doubleValue*M_PI*2;
-//            chartView.endAngle = -M_PI/2 + percent.doubleValue*M_PI*2+percent2.doubleValue*M_PI*2 + percent3.doubleValue*M_PI*2;
-//            chartView.strokeColor = [UIColor yellowColor];
-//            chartView.centerPoint = CGPointMake(centerPoint.x, centerPoint.y);
-//            chartView.backgroundColor = [UIColor clearColor];
-//            [self.view addSubview:chartView];
-//        } if (i == 3) {
-//            NSNumber *percent = percentArray[0];
-//            NSNumber *percent2 = percentArray[1];
-//            NSNumber *percent3 = percentArray[2];
-//            NSNumber *percent4 = percentArray[3];
-//            CenterPoint *centerPoint = centerPointArray[i];
-//            PieChartView *chartView = [[PieChartView alloc]initWithFrame:self.view.frame];
-//            chartView.startAngle = -M_PI/2 + percent.doubleValue*M_PI*2+percent2.doubleValue*M_PI*2 + percent3.doubleValue*M_PI*2;
-//            chartView.endAngle = -M_PI/2;
-//            chartView.strokeColor = [UIColor purpleColor];
-//            chartView.centerPoint = CGPointMake(centerPoint.x, centerPoint.y);
-//            chartView.backgroundColor = [UIColor clearColor];
-//            [self.view addSubview:chartView];
-//        }
-    }
+    PieChartView *pieChartView = [[PieChartView alloc]initWithFrame:CGRectMake((SCREEM_WIDTH - 250)/2, 100 , 250, 250)];
+    
+    //比例
+    pieChartView.valueArray = @[@"0.1",@"0.3",@"0.4",@"0.2"];
+    
+    //颜色
+    pieChartView.colorArray = @[[UIColor redColor],[UIColor blueColor],[UIColor orangeColor],[UIColor greenColor]];
+    
+    //半径
+    pieChartView.radius = 100;
+    
+    [self.view addSubview:pieChartView];
     
 }
 

@@ -22,6 +22,13 @@
 //终止角度
 @property (assign,nonatomic) CGFloat endAngle;
 
+//数值数组
+@property (copy,nonatomic) NSArray *valueArray;
+
+//颜色数组
+@property (copy,nonatomic) NSArray *colorArray;
+
+@property (assign,nonatomic) int radius;
 
 
 @end
